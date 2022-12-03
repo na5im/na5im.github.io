@@ -104,3 +104,4 @@ function markerPlace(array, map) {
 }
 
 const map = initMap();
+map()
