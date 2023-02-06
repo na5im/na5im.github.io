@@ -30,7 +30,7 @@ function processLitters(list, location) {
   return range;
 }
 
-/* Map Functions */ 
+/* Map Functions */
 
 function initMap() {
   console.log('initMap');
@@ -48,7 +48,6 @@ function markerPlace(array, map) {
       layer.remove();
     }
   });
-
   array.forEach((item, index) => {
     const coordinates = item.geocoded_column;
     const latitude = Object.values(coordinates)[0];
